@@ -1,7 +1,7 @@
 FROM golang:latest 
 
-RUN mkdir /go/
-WORKDIR /go/
+RUN mkdir /read-sw/
+WORKDIR /read-sw/
 
 COPY . .
 
