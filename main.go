@@ -101,5 +101,5 @@ func startClient(nama string) {
 
 func main() {
 	go startHttp()
-	startClient("jshhshsj")
+	startClient("run")
 }
